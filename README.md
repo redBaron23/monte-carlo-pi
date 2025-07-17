@@ -1,5 +1,7 @@
 # Monte Carlo π Estimator
 
+<img width="2424" height="1434" alt="image" src="https://github.com/user-attachments/assets/d3ead267-bb41-40c7-979c-5e6ed7ceb507" />
+
 This is a fullstack application that estimates the value of π using the Monte Carlo method.  
 The frontend is built with React (Vite + Tailwind), and the backend is a simple Python service.
 
