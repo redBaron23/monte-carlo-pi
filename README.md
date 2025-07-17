@@ -23,6 +23,21 @@ cd monte-carlo-pi
 pnpm run install:all
 ```
 
+### Prepare environment variables
+
+Before running the frontend, make sure the `.env` file exists in `apps/frontend`.  
+You can generate a default one by running:
+
+```bash
+pnpm run generate:env
+```
+
+The `.env` file contains:
+
+```bash
+VITE_API_BASE_URL=http://localhost:5000
+```
+
 ## Development
 
 ```bash
