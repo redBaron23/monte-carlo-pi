@@ -7,6 +7,13 @@ The frontend is built with React (Vite + Tailwind), and the backend is a simple 
 
 ---
 
+### Live Demo
+
+Puedes ver la aplicación funcionando en:  
+[https://monte-carlo-pi.vercel.app/](https://monte-carlo-pi.vercel.app/)
+
+---
+
 ## 🚀 Requirements
 
 - **Node.js** v22.17.0
