@@ -1,0 +1,14 @@
+{
+  "name": "monte-carlo-pi",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently 'pnpm --filter frontend dev' 'cd apps/backend && python app.py'",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:backend": "cd apps/backend && python app.py",
+    "build": "pnpm --filter frontend build",
+    "install:all": "pnpm install && cd apps/backend && pip install -r requirements.txt"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
